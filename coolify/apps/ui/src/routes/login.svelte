@@ -66,7 +66,7 @@
 					</div>
 				</div>
 				<div class="prose">
-					<h4>Iserv</h4>
+					<h4>Iserv-Kmitl</h4>
 				</div>
 			{/if}
 		</div>
@@ -115,7 +115,7 @@
 							Registration is disabled. Please ask an admin to activate it.
 						</div> -->
 						<div class="text-stone-600 text-xs">
-							ใช้ Email สถาบันในการ Login เข้าใช้งาน @kmitl
+							ใช้ Email สถาบันในการ Login เข้าใช้งาน ( example@kmitl.ac.th )
 						</div>
 					{/if}
 				</div>
