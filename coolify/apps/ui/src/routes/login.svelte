@@ -47,7 +47,7 @@
 
 <div class="flex lg:flex-row flex-col h-screen">
 	<div class="bg-neutral-focus h-screen lg:flex hidden flex-col justify-end p-20 flex-1">
-		<h1 class="title lg:text-6xl mb-5 border-gradient">Coolify</h1>
+		<h1 class="title lg:text-6xl mb-5 border-gradient">Iserv-Kmitl</h1>
 		<h3 class="title">Made self-hosting simple.</h3>
 	</div>
 	<div class="flex flex-1 flex-col lg:max-w-2xl">
@@ -66,7 +66,7 @@
 					</div>
 				</div>
 				<div class="prose">
-					<h4>Coolify</h4>
+					<h4>Iserv</h4>
 				</div>
 			{/if}
 		</div>
@@ -74,7 +74,7 @@
 			class="w-full md:px-20 lg:px-10 xl:px-20 p-6 flex flex-col h-full justify-center items-center"
 		>
 			<div class="mb-5 w-full prose prose-neutral">
-				<h1 class="m-0 white">Welcome back</h1>
+				<h1 class="m-0 white">Login</h1>
 				<h5>Please login to continue.</h5>
 			</div>
 			<form on:submit|preventDefault={handleSubmit} class="flex flex-col py-4 space-y-3 w-full">
@@ -111,8 +111,11 @@
 							>{$t('register.register')}</button
 						>
 					{:else}
-						<div class="text-stone-600 text-xs">
+						<!-- <div class="text-stone-600 text-xs">
 							Registration is disabled. Please ask an admin to activate it.
+						</div> -->
+						<div class="text-stone-600 text-xs">
+							ใช้ Email สถาบันในการ Login เข้าใช้งาน @kmitl
 						</div>
 					{/if}
 				</div>
